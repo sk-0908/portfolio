@@ -1,0 +1,29 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "experience": "Experience",
+    "certifications": "Certifications",
+    "contact": "Contact"
+  },
+  "home": {
+    "greeting": "Hello",
+    "latestProjects": "Latest Projects"
+  },
+  "common": {
+    "viewDetails": "View details",
+    "techStack": "Tech Stack",
+    "period": "Period",
+    "role": "Role"
+  },
+  "about": { "title": "About / Profile" },
+  "skills": { "title": "Skills" },
+  "projects": { "title": "Projects" },
+  "experience": { "title": "Experience" },
+  "certifications": { "title": "Certifications" },
+  "contact": { "title": "Contact", "emailMe": "Email me" },
+  "lang": { "label": "Language", "ja": "Japanese", "en": "English" }
+}
+

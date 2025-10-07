@@ -1,0 +1,388 @@
+[
+  {
+    "id": "portfolio",
+    "title": {
+      "ja": "portfolio",
+      "en": "portfolio"
+    },
+    "summary": {
+      "ja": "This is a Next.js project bootstrapped with `create-next-app`. Getting Started First, run the development server: Open http://localhost:3000 with your browser to see the result. You can start editing the page by modifyin",
+      "en": "This is a Next.js project bootstrapped with `create-next-app`. Getting Started First, run the development server: Open http://localhost:3000 with your browser to see the result. You can start editing the page by modifyin"
+    },
+    "tech": [
+      "TypeScript",
+      "JavaScript",
+      "CSS"
+    ],
+    "period": "2025",
+    "role": {
+      "ja": "個人開発",
+      "en": "Solo"
+    },
+    "links": {
+      "github": "https://github.com/sk-0908/portfolio"
+    },
+    "images": [
+      "/images/projects/placeholder.svg"
+    ]
+  },
+  {
+    "id": "api-test",
+    "title": {
+      "ja": "api-test",
+      "en": "api-test"
+    },
+    "summary": {
+      "ja": "所持品管理API 高級品やコレクションアイテムを管理するREST APIサーバーです。 📋 API仕様 ベースURL エンドポイント一覧 | メソッド | パス | 説明 | ステータスコード | |---------|------|------|-----------------| | GET | `/health` | ヘルスチェック | 200 | | GET | `/items` | 全アイテム取得 | 200 | | POS",
+      "en": "所持品管理API 高級品やコレクションアイテムを管理するREST APIサーバーです。 📋 API仕様 ベースURL エンドポイント一覧 | メソッド | パス | 説明 | ステータスコード | |---------|------|------|-----------------| | GET | `/health` | ヘルスチェック | 200 | | GET | `/items` | 全アイテム取得 | 200 | | POS"
+    },
+    "tech": [
+      "Go",
+      "Dockerfile"
+    ],
+    "period": "2025",
+    "role": {
+      "ja": "個人開発",
+      "en": "Solo"
+    },
+    "links": {
+      "github": "https://github.com/sk-0908/api-test"
+    },
+    "images": [
+      "/images/projects/placeholder.svg"
+    ]
+  },
+  {
+    "id": "Floyd-Warshall_Algorithm_visualization",
+    "title": {
+      "ja": "Floyd-Warshall_Algorithm_visualization",
+      "en": "Floyd-Warshall_Algorithm_visualization"
+    },
+    "summary": {
+      "ja": "Floyd-Warshall_Algorithm_visualization https://g.co/gemini/share/7ebb4b81841f",
+      "en": "Floyd-Warshall_Algorithm_visualization https://g.co/gemini/share/7ebb4b81841f"
+    },
+    "tech": [],
+    "period": "2025",
+    "role": {
+      "ja": "個人開発",
+      "en": "Solo"
+    },
+    "links": {
+      "github": "https://github.com/sk-0908/Floyd-Warshall_Algorithm_visualization"
+    },
+    "images": [
+      "/images/projects/placeholder.svg"
+    ]
+  },
+  {
+    "id": "prompt_opt",
+    "title": {
+      "ja": "prompt_opt",
+      "en": "prompt_opt"
+    },
+    "summary": {
+      "ja": "This is a Next.js project bootstrapped with `create-next-app`. Getting Started First, run the development server: Open http://localhost:3000 with your browser to see the result. You can start editing the page by modifyin",
+      "en": "This is a Next.js project bootstrapped with `create-next-app`. Getting Started First, run the development server: Open http://localhost:3000 with your browser to see the result. You can start editing the page by modifyin"
+    },
+    "tech": [
+      "TypeScript",
+      "CSS",
+      "JavaScript"
+    ],
+    "period": "2025",
+    "role": {
+      "ja": "個人開発",
+      "en": "Solo"
+    },
+    "links": {
+      "github": "https://github.com/sk-0908/prompt_opt",
+      "demo": "https://prompt-opt-beryl.vercel.app"
+    },
+    "images": [
+      "/images/projects/placeholder.svg"
+    ]
+  },
+  {
+    "id": "web-sec-playground",
+    "title": {
+      "ja": "web-sec-playground",
+      "en": "web-sec-playground"
+    },
+    "summary": {
+      "ja": "Web Sec Playground 概要 このプロジェクトは、Next.js + Prisma + SQLite を用いたシンプルなユーザ認証アプリです。 ユーザ登録（サインアップ）・ログイン機能 パスワードはbcryptで安全にハッシュ化 サインアップ時にパスワード強度をリアルタイム表示 連続5回ログイン失敗でアカウントロック（30分） 主な機能 サインアップ時、パスワード強度をzxcvbnで判定しUI表示 ログイン失敗5回でアカウ",
+      "en": "Web Sec Playground 概要 このプロジェクトは、Next.js + Prisma + SQLite を用いたシンプルなユーザ認証アプリです。 ユーザ登録（サインアップ）・ログイン機能 パスワードはbcryptで安全にハッシュ化 サインアップ時にパスワード強度をリアルタイム表示 連続5回ログイン失敗でアカウントロック（30分） 主な機能 サインアップ時、パスワード強度をzxcvbnで判定しUI表示 ログイン失敗5回でアカウ"
+    },
+    "tech": [
+      "TypeScript",
+      "JavaScript",
+      "CSS"
+    ],
+    "period": "2025",
+    "role": {
+      "ja": "個人開発",
+      "en": "Solo"
+    },
+    "links": {
+      "github": "https://github.com/sk-0908/web-sec-playground"
+    },
+    "images": [
+      "/images/projects/placeholder.svg"
+    ]
+  },
+  {
+    "id": "tarkov-task-todo",
+    "title": {
+      "ja": "tarkov-task-todo",
+      "en": "tarkov-task-todo"
+    },
+    "summary": {
+      "ja": "Escape from Tarkov タスク管理アプリ https://tarkov-task-todo.vercel.app/ 2025/2作成。 はじめに Escape from Tarkovとは 『Escape from Tarkov』（以下、Tarkov）は、FPSとRPG要素を融合させたリアル志向のシューティングゲーム。このWebアプリは、Tarkovのタスク（ミッション）を管理することを目的としており、ユーザが進捗状況や目標",
+      "en": "Escape from Tarkov タスク管理アプリ https://tarkov-task-todo.vercel.app/ 2025/2作成。 はじめに Escape from Tarkovとは 『Escape from Tarkov』（以下、Tarkov）は、FPSとRPG要素を融合させたリアル志向のシューティングゲーム。このWebアプリは、Tarkovのタスク（ミッション）を管理することを目的としており、ユーザが進捗状況や目標"
+    },
+    "tech": [
+      "TypeScript",
+      "JavaScript",
+      "CSS"
+    ],
+    "period": "2025",
+    "role": {
+      "ja": "個人開発",
+      "en": "Solo"
+    },
+    "links": {
+      "github": "https://github.com/sk-0908/tarkov-task-todo",
+      "demo": "https://tarkov-task-todo.vercel.app"
+    },
+    "images": [
+      "/images/projects/placeholder.svg"
+    ]
+  },
+  {
+    "id": "how-to-make-ubuntu-and-server",
+    "title": {
+      "ja": "how-to-make-ubuntu-and-server",
+      "en": "how-to-make-ubuntu-and-server"
+    },
+    "summary": {
+      "ja": "GitHubリポジトリ",
+      "en": "GitHub repository"
+    },
+    "tech": [],
+    "period": "2025",
+    "role": {
+      "ja": "個人開発",
+      "en": "Solo"
+    },
+    "links": {
+      "github": "https://github.com/sk-0908/how-to-make-ubuntu-and-server"
+    },
+    "images": [
+      "/images/projects/placeholder.svg"
+    ]
+  },
+  {
+    "id": "next-blog-app",
+    "title": {
+      "ja": "next-blog-app",
+      "en": "next-blog-app"
+    },
+    "summary": {
+      "ja": "GitHubリポジトリ",
+      "en": "GitHub repository"
+    },
+    "tech": [
+      "TypeScript",
+      "HTML",
+      "JavaScript",
+      "CSS"
+    ],
+    "period": "2025",
+    "role": {
+      "ja": "個人開発",
+      "en": "Solo"
+    },
+    "links": {
+      "github": "https://github.com/sk-0908/next-blog-app"
+    },
+    "images": [
+      "/images/projects/placeholder.svg"
+    ]
+  },
+  {
+    "id": "blog_js",
+    "title": {
+      "ja": "blog_js",
+      "en": "blog_js"
+    },
+    "summary": {
+      "ja": "GitHubリポジトリ",
+      "en": "GitHub repository"
+    },
+    "tech": [
+      "HTML",
+      "JavaScript",
+      "CSS"
+    ],
+    "period": "2024",
+    "role": {
+      "ja": "個人開発",
+      "en": "Solo"
+    },
+    "links": {
+      "github": "https://github.com/sk-0908/blog_js"
+    },
+    "images": [
+      "/images/projects/placeholder.svg"
+    ]
+  },
+  {
+    "id": "you-are-an-idiot",
+    "title": {
+      "ja": "you-are-an-idiot",
+      "en": "you-are-an-idiot"
+    },
+    "summary": {
+      "ja": "GUIのライブラリであるpysideを用いて昔懐かしブラウザクラッシャーのレジェンド、「YOU ARE AN IDIOT」をpysideで作ってみました。実行すると人工音声が「YOU ARE AN IDIOT」と言いながら小さいウィンドウが0.8秒単位でランダムな位置に動きます。ウィルスのようなふるまいをしますが何らそのようなプログラムは実装されていません。消せば消えます。5時間ほどで作ることができました。pysideの基礎的なことを学",
+      "en": "GUIのライブラリであるpysideを用いて昔懐かしブラウザクラッシャーのレジェンド、「YOU ARE AN IDIOT」をpysideで作ってみました。実行すると人工音声が「YOU ARE AN IDIOT」と言いながら小さいウィンドウが0.8秒単位でランダムな位置に動きます。ウィルスのようなふるまいをしますが何らそのようなプログラムは実装されていません。消せば消えます。5時間ほどで作ることができました。pysideの基礎的なことを学"
+    },
+    "tech": [
+      "Python"
+    ],
+    "period": "2024",
+    "role": {
+      "ja": "個人開発",
+      "en": "Solo"
+    },
+    "links": {
+      "github": "https://github.com/sk-0908/you-are-an-idiot"
+    },
+    "images": [
+      "/images/projects/placeholder.svg"
+    ]
+  },
+  {
+    "id": "reuseable_chess",
+    "title": {
+      "ja": "reuseable_chess",
+      "en": "reuseable_chess"
+    },
+    "summary": {
+      "ja": "ターミナルで動く簡単なチェスアプリです。 ターン制、自由な操作、軽い動作がウリです。 main.pyを実行して遊んでください。",
+      "en": "ターミナルで動く簡単なチェスアプリです。 ターン制、自由な操作、軽い動作がウリです。 main.pyを実行して遊んでください。"
+    },
+    "tech": [
+      "Python",
+      "PowerShell",
+      "Batchfile"
+    ],
+    "period": "2024",
+    "role": {
+      "ja": "個人開発",
+      "en": "Solo"
+    },
+    "links": {
+      "github": "https://github.com/sk-0908/reuseable_chess"
+    },
+    "images": [
+      "/images/projects/placeholder.svg"
+    ]
+  },
+  {
+    "id": "AI_flashcard",
+    "title": {
+      "ja": "AI_flashcard",
+      "en": "AI_flashcard"
+    },
+    "summary": {
+      "ja": "AI_flashcard",
+      "en": "AI_flashcard"
+    },
+    "tech": [],
+    "period": "2024",
+    "role": {
+      "ja": "個人開発",
+      "en": "Solo"
+    },
+    "links": {
+      "github": "https://github.com/sk-0908/AI_flashcard"
+    },
+    "images": [
+      "/images/projects/placeholder.svg"
+    ]
+  },
+  {
+    "id": "Python_Mahjong",
+    "title": {
+      "ja": "Python_Mahjong",
+      "en": "Python_Mahjong"
+    },
+    "summary": {
+      "ja": "Python_Mahjong",
+      "en": "Python_Mahjong"
+    },
+    "tech": [
+      "Jupyter Notebook"
+    ],
+    "period": "2023",
+    "role": {
+      "ja": "個人開発",
+      "en": "Solo"
+    },
+    "links": {
+      "github": "https://github.com/sk-0908/Python_Mahjong"
+    },
+    "images": [
+      "/images/projects/placeholder.svg"
+    ]
+  },
+  {
+    "id": "Github-Test",
+    "title": {
+      "ja": "Github-Test",
+      "en": "Github-Test"
+    },
+    "summary": {
+      "ja": "GitHub利用の練習 VSCode から GitHub にリポジトリを発行 README.mdに変更を加えてコミットしてプッシュュュュュュュュュュ",
+      "en": "GitHub利用の練習 VSCode から GitHub にリポジトリを発行 README.mdに変更を加えてコミットしてプッシュュュュュュュュュュ"
+    },
+    "tech": [],
+    "period": "2023",
+    "role": {
+      "ja": "個人開発",
+      "en": "Solo"
+    },
+    "links": {
+      "github": "https://github.com/sk-0908/Github-Test"
+    },
+    "images": [
+      "/images/projects/placeholder.svg"
+    ]
+  },
+  {
+    "id": "website",
+    "title": {
+      "ja": "website",
+      "en": "website"
+    },
+    "summary": {
+      "ja": "GitHub Pages で、じぶんのウェブサイトをつくろう！ ひとまず作ってみよう！ 1. GitHubアカウントを作る Sign up for GitHub （スライドでの解説、アカウント名はウェブサイト名の一部にもなるのでいい名前を付けましょう。登録後GitHubからのメールを確認して、Verify！） 2. このリポジトリを右上にあるForkを押して自分のリポジトリとしてコピーする （リポジトリ＝貯蔵庫、Git上で扱う1つのプロ",
+      "en": "GitHub Pages で、じぶんのウェブサイトをつくろう！ ひとまず作ってみよう！ 1. GitHubアカウントを作る Sign up for GitHub （スライドでの解説、アカウント名はウェブサイト名の一部にもなるのでいい名前を付けましょう。登録後GitHubからのメールを確認して、Verify！） 2. このリポジトリを右上にあるForkを押して自分のリポジトリとしてコピーする （リポジトリ＝貯蔵庫、Git上で扱う1つのプロ"
+    },
+    "tech": [
+      "HTML",
+      "CSS"
+    ],
+    "period": "2022",
+    "role": {
+      "ja": "個人開発",
+      "en": "Solo"
+    },
+    "links": {
+      "github": "https://github.com/sk-0908/website"
+    },
+    "images": [
+      "/images/projects/placeholder.svg"
+    ]
+  }
+]

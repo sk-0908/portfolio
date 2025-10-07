@@ -1,0 +1,31 @@
+{
+  "nav": {
+    "home": "ホーム",
+    "about": "概要",
+    "skills": "スキル",
+    "projects": "作品",
+    "experience": "職務経歴",
+    "certifications": "資格",
+    "contact": "連絡先"
+  },
+  "home": {
+    "greeting": "こんにちは",
+    "latestProjects": "最新の作品"
+  },
+  "common": {
+    "viewDetails": "詳細を見る",
+    "techStack": "技術スタック",
+    "period": "期間",
+    "role": "役割"
+  },
+  "about": {
+    "title": "概要 / プロフィール"
+  },
+  "skills": { "title": "スキル" },
+  "projects": { "title": "作品" },
+  "experience": { "title": "職務経歴" },
+  "certifications": { "title": "資格" },
+  "contact": { "title": "連絡先", "emailMe": "メールを送る" },
+  "lang": { "label": "言語", "ja": "日本語", "en": "英語" }
+}
+

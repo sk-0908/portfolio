@@ -6,7 +6,8 @@
     "dev": "next dev --turbopack",
     "build": "next build --turbopack",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "sync:github": "node scripts/fetch_github.js sk-0908"
   },
   "dependencies": {
     "react": "19.1.0",

@@ -1,0 +1,20 @@
+{
+  "site": {
+    "title": "sk-0908 — ポートフォリオ",
+    "description": {
+      "ja": "sk-0908のポートフォリオ",
+      "en": "sk-0908's portfolio"
+    }
+  },
+  "name": { "ja": "sk-0908", "en": "sk-0908" },
+  "title": { "ja": "高専生", "en": "High School Student" },
+  "bio": {
+    "ja": "モダンWeb開発を中心に、Next.js/TypeScriptでのフロントエンド実装を得意としています。また、Pythonのネイティブアプリの作成の経験もあります。",
+    "en": "Frontend engineer focusing on modern web dev with Next.js and TypeScript. Also, I have experience creating native apps with Python."
+  },
+  "email": "kondo.wisterias@icloud.com",
+  "social": {
+    "github": "https://github.com/sk-0908"
+  },
+  "avatar": "/images/avatar.svg"
+}

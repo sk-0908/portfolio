@@ -1,0 +1,15 @@
+[
+  {
+    "category": { "ja": "フロントエンド", "en": "Frontend" },
+    "items": ["React", "Next.js", "TypeScript", "Tailwind CSS"]
+  },
+  {
+    "category": { "ja": "バックエンド", "en": "Backend" },
+    "items": ["Node.js", "Express", "REST", "GraphQL"]
+  },
+  {
+    "category": { "ja": "インフラ/その他", "en": "Infra/Other" },
+    "items": ["Vercel", "GitHub Actions", "Jest", "Playwright"]
+  }
+]
+

@@ -1,0 +1,12 @@
+[
+  {
+    "company": "高専",
+    "role": { "ja": "情報系学科", "en": "Information Science" },
+    "period": "2022 - 2027",
+    "description": {
+      "ja": "情報系学科に所属し、情報系の学問を学んでいます。",
+      "en": "I belong to the Information Science department and study information-related subjects."
+    }
+  }
+]
+
