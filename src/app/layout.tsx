@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { LanguageProvider } from "@/components/LanguageProvider";
+import { ThemeProvider } from "@/components/ThemeProvider";
 import NavBar from "@/components/NavBar";
 import profile from "@/data/profile.json";
 
@@ -26,12 +27,14 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="ja">
-      <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
-        <LanguageProvider>
-          <NavBar />
-          <main className="max-w-5xl mx-auto px-4 py-10">{children}</main>
-        </LanguageProvider>
+    <html lang="ja" className="scroll-smooth">
+      <body className={`${geistSans.variable} ${geistMono.variable} antialiased bg-white text-gray-900 dark:bg-gray-950 dark:text-gray-100` }>
+        <ThemeProvider>
+          <LanguageProvider>
+            <NavBar />
+            <main className="max-w-5xl mx-auto px-4 py-10">{children}</main>
+          </LanguageProvider>
+        </ThemeProvider>
       </body>
     </html>
   );

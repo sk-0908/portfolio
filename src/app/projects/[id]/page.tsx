@@ -17,8 +17,8 @@ export default function ProjectDetail({ params }: { params: { id: string } }) {
       <Link href="/projects" className="text-sm text-blue-600 hover:underline">← Back</Link>
       <h1 className="text-2xl font-semibold">{L(project.title, "ja")}</h1>
       {project.images?.[0] && (
-        <div className="aspect-video relative bg-gray-50">
-          <Image src={project.images[0]} alt={project.id} fill className="object-cover" />
+        <div className="aspect-video relative bg-gray-50 dark:bg-gray-800">
+          <Image src={project.images[0]} alt={project.id} fill sizes="100vw" className="object-cover" />
         </div>
       )}
       <p className="text-gray-700">{L(project.summary, "ja")}</p>

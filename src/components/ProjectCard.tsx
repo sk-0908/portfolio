@@ -18,10 +18,17 @@ type Project = {
 export default function ProjectCard({ project }: { project: Project }) {
   const { lang, t } = useLang();
   return (
-    <div className="border rounded-lg overflow-hidden shadow-sm bg-white">
+    <div className="border rounded-lg overflow-hidden shadow-sm bg-white dark:bg-gray-900">
       {project.images?.[0] && (
-        <div className="aspect-video relative bg-gray-50">
-          <Image src={project.images[0]} alt={L(project.title, lang)} fill className="object-cover" />
+        <div className="aspect-video relative bg-gray-50 dark:bg-gray-800">
+          <Image
+            src={project.images[0]}
+            alt={L(project.title, lang)}
+            fill
+            sizes="(min-width: 640px) 50vw, 100vw"
+            className="object-cover"
+            priority={false}
+          />
         </div>
       )}
       <div className="p-4 space-y-2">
