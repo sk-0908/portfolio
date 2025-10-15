@@ -1,36 +1,95 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## Portfolio 2025
 
-## Getting Started
+モダンなスタックで構築した個人ポートフォリオサイトです。`Next.js 15`、`React 19`、`Tailwind CSS v4` を採用し、パフォーマンスと拡張性を重視しています。
 
-First, run the development server:
+### ライブデモ
+- Vercel: https://portfolio-five-ruby-qcmh8i263j.vercel.app/
 
+### 主な機能
+- セクション構成: `Hero` / `About` / `Skills` / `Projects` / `Contact` / `Footer`
+- 遅延アニメーションやダークテーマ対応のスタイル
+- 型定義に基づくデータ管理（`src/data/*.ts`）
+
+### 技術スタック
+- Next.js 15 / React 19
+- TypeScript
+- Tailwind CSS v4
+- ESLint
+
+---
+
+## はじめかた
+
+### 必要要件
+- Node.js 18 以上（推奨: 20 以上）
+
+### セットアップ
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+```
+開発サーバ: http://localhost:3000
+
+### 本番ビルド
+```bash
+npm run build
+npm start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Lint
+```bash
+npm run lint
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## プロジェクト構成
+```text
+src/
+  app/
+    layout.tsx
+    page.tsx
+    globals.css
+  components/
+    Navigation.tsx / Hero.tsx / About.tsx / Skills.tsx / Projects.tsx / Contact.tsx / Footer.tsx
+  data/
+    personal.ts   # プロフィール・連絡先・SNS
+    projects.ts   # プロジェクト一覧
+    skills.ts     # スキル一覧
+  types/
+    index.ts
+public/
+  *.svg, 画像類
+```
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## カスタマイズ
+- プロフィールやSNS: `src/data/personal.ts`
+- プロジェクトカード: `src/data/projects.ts`
+- スキル一覧: `src/data/skills.ts`
+- 画像・アイコン: `public/` 配下を差し替え
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 連絡フォームについて
+`Contact.tsx` の送信は現在ダミー（setTimeout による成功表示）です。実送信に切り替えるには以下のいずれかをご検討ください。
+- Next.js の API ルートを作成し、メール送信（例: SendGrid）を実装
+- 外部フォームサービス（Formspree など）を利用
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## デプロイ
+Vercel でのデプロイを想定しています。
+1. リポジトリを GitHub にプッシュ
+2. Vercel で「New Project」→ 対象リポジトリをインポート
+3. フレームワークは `Next.js` を自動検出
+4. デプロイ後の URL を `README.md` の「ライブデモ」に反映
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+既存デプロイ: https://portfolio-five-ruby-qcmh8i263j.vercel.app/
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 著者
+sk-0908
+
+## ライセンス
+MIT
